@@ -11,7 +11,8 @@ const App = () => {
   };
   return (
     <div className="app">
-      <Board nRows={defaultProps.nrows} nCols={defaultProps.ncols} chanceOfLight={defaultProps.chanceOfLight} />
+      <Board />
+      {/* <Board nRows={defaultProps.nrows} nCols={defaultProps.ncols} chanceOfLight={defaultProps.chanceOfLight} /> */}
     </div>
   );
 }
